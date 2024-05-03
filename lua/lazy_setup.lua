@@ -11,11 +11,14 @@ require("lazy").setup({
       update_notifications = true, -- Enable/disable notification about running `:Lazy update` twice to update pinned plugins
     },
   },
+  {
+    "rose-pine/neovim", name = "rose-pine"
+  },
   { import = "community" },
   { import = "plugins" },
 } --[[@as LazySpec]], {
   -- Configure any other `lazy.nvim` configuration options here
-  install = { colorscheme = { "astrodark", "habamax" } },
+  install = { colorscheme = { "astrodark", "habamax", "rose-pine" } },
   ui = { backdrop = 100 },
   performance = {
     rtp = {
