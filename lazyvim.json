@@ -1,0 +1,11 @@
+{
+  "extras": [
+    "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.lang.typescript",
+    "lazyvim.plugins.extras.lang.vue"
+  ],
+  "news": {
+    "NEWS.md": "7429"
+  },
+  "version": 7
+}
