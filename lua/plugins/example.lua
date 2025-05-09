@@ -122,6 +122,7 @@ return {
       ensure_installed = {
         "bash",
         "html",
+        "css",
         "javascript",
         "json",
         "lua",
@@ -134,6 +135,10 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "java",
+        "kotlin",
+        "scala",
+        "php",
       },
     },
   },
@@ -148,6 +153,7 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "tsx",
         "typescript",
+        "java",
       })
     end,
   },
